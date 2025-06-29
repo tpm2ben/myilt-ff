@@ -1,0 +1,28 @@
+pipeline:
+  name: FF-Pipeline
+  identifier: FFPipeline
+  projectIdentifier: myilt
+  orgIdentifier: MyLab
+  tags: {}
+  stages:
+    - stage:
+        name: Feature Flag
+        identifier: Feature_Flag
+        description: ""
+        type: FeatureFlag
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: FlagConfiguration
+                  name: Boolean3_config
+                  identifier: Boolean3_config
+                  spec:
+                    feature: Bealean3
+                    environment: test
+                    instructions:
+                      - identifier: SetFeatureFlagStateIdentifier
+                        type: SetFeatureFlagState
+                        spec:
+                          state: "on"
+                  timeout: 10m
