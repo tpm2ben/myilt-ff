@@ -42,6 +42,47 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
+      name: Boolean2
+      identifier: Boolean2
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: test
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: cffenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: mydevenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: myprodenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: myqaenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: Multivariate
       identifier: Multivariate
       description: ""
