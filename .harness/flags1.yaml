@@ -1,0 +1,127 @@
+featureFlags:
+  flags:
+  - flag:
+      name: Boolean
+      identifier: Boolean
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: test
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: cffenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: mydevenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: myprodenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: myqaenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: Multivariate
+      identifier: Multivariate
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        variations:
+        - identifier: Variation_1
+          value: All_Users
+        - identifier: Variation_2
+          value: Eng_Users
+      environments:
+      - identifier: test
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
+      - identifier: cffenv
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
+      - identifier: mydevenv
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
+      - identifier: myprodenv
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
+      - identifier: myqaenv
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
+  - flag:
+      name: My_Test_Flag
+      identifier: My_Test_Flag
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: test
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: cffenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: mydevenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: myprodenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: myqaenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  projectIdentifier: myilt
+  orgIdentifier: MyLab
