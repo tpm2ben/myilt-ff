@@ -16,6 +16,11 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
+      - identifier: awsk8s
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: ssem
         default:
           onVariation: "false"
@@ -67,6 +72,11 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
+      - identifier: awsk8s
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
       - identifier: ssem
         default:
           onVariation: "true"
@@ -118,6 +128,11 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
+      - identifier: awsk8s
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: ssem
         default:
           onVariation: "false"
@@ -169,6 +184,11 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
+      - identifier: awsk8s
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: ssem
         default:
           onVariation: "false"
@@ -220,6 +240,11 @@ featureFlags:
         - identifier: Variation_2
           value: Eng_Users
       environments:
+      - identifier: awsk8s
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
       - identifier: ssem
         default:
           onVariation: Variation_2
@@ -271,6 +296,11 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
+      - identifier: awsk8s
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
       - identifier: ssem
         default:
           onVariation: "true"
