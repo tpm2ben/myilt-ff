@@ -21,6 +21,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: colima
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: ssem
         default:
           onVariation: "false"
@@ -73,6 +78,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: awsk8s
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: colima
         default:
           onVariation: "true"
           offVariation: "false"
@@ -133,6 +143,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: colima
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: ssem
         default:
           onVariation: "false"
@@ -185,6 +200,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: awsk8s
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: colima
         default:
           onVariation: "false"
           offVariation: "false"
@@ -245,6 +265,11 @@ featureFlags:
           onVariation: Variation_2
           offVariation: Variation_1
         state: "off"
+      - identifier: colima
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
       - identifier: ssem
         default:
           onVariation: Variation_2
@@ -297,6 +322,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: awsk8s
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: colima
         default:
           onVariation: "true"
           offVariation: "false"
