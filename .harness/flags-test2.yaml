@@ -31,6 +31,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: prod
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: harnessdevenv
         default:
           onVariation: "false"
@@ -57,6 +62,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: myqaenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: preprod
         default:
           onVariation: "false"
           offVariation: "false"
@@ -92,6 +102,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: prod
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
       - identifier: harnessdevenv
         default:
           onVariation: "true"
@@ -118,6 +133,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: myqaenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: preprod
         default:
           onVariation: "true"
           offVariation: "false"
@@ -153,6 +173,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: prod
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: harnessdevenv
         default:
           onVariation: "false"
@@ -179,6 +204,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: myqaenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: preprod
         default:
           onVariation: "false"
           offVariation: "false"
@@ -214,6 +244,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: prod
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: harnessdevenv
         default:
           onVariation: "false"
@@ -240,6 +275,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: myqaenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: preprod
         default:
           onVariation: "false"
           offVariation: "false"
@@ -275,6 +315,11 @@ featureFlags:
           onVariation: Variation_2
           offVariation: Variation_1
         state: "off"
+      - identifier: prod
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
       - identifier: harnessdevenv
         default:
           onVariation: Variation_2
@@ -301,6 +346,11 @@ featureFlags:
           offVariation: Variation_1
         state: "off"
       - identifier: myqaenv
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
+      - identifier: preprod
         default:
           onVariation: Variation_2
           offVariation: Variation_1
@@ -336,6 +386,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: prod
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
       - identifier: harnessdevenv
         default:
           onVariation: "true"
@@ -362,6 +417,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: myqaenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: preprod
         default:
           onVariation: "true"
           offVariation: "false"
