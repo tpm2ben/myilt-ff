@@ -71,6 +71,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: awscv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: Boolean
       identifier: Boolean
@@ -138,6 +143,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: preprod
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: awscv
         default:
           onVariation: "true"
           offVariation: "false"
@@ -213,6 +223,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: awscv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: Boolean5
       identifier: Boolean5
@@ -280,6 +295,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: preprod
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: awscv
         default:
           onVariation: "false"
           offVariation: "false"
@@ -355,6 +375,11 @@ featureFlags:
           onVariation: Variation_2
           offVariation: Variation_1
         state: "off"
+      - identifier: awscv
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
   - flag:
       name: My_Test_Flag
       identifier: My_Test_Flag
@@ -422,6 +447,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: preprod
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: awscv
         default:
           onVariation: "true"
           offVariation: "false"
