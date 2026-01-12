@@ -456,5 +456,9 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+        targetRules:
+        - targets:
+          - identifier: guest
+          variation: "true"
   projectIdentifier: myilt
   orgIdentifier: MyLab
