@@ -41,6 +41,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: dev
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: test
         default:
           onVariation: "false"
@@ -113,6 +118,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: harnessdevenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: dev
         default:
           onVariation: "true"
           offVariation: "false"
@@ -193,6 +203,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: dev
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: test
         default:
           onVariation: "false"
@@ -265,6 +280,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: harnessdevenv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: dev
         default:
           onVariation: "false"
           offVariation: "false"
@@ -345,6 +365,11 @@ featureFlags:
           onVariation: Variation_2
           offVariation: Variation_1
         state: "off"
+      - identifier: dev
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
       - identifier: test
         default:
           onVariation: Variation_2
@@ -417,6 +442,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: harnessdevenv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: dev
         default:
           onVariation: "true"
           offVariation: "false"
