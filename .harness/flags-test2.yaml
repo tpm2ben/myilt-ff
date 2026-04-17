@@ -81,6 +81,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: DEV
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: Boolean
       identifier: Boolean
@@ -158,6 +163,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: awscv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: DEV
         default:
           onVariation: "true"
           offVariation: "false"
@@ -243,6 +253,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: DEV
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: Boolean5
       identifier: Boolean5
@@ -324,6 +339,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: DEV
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: Multivariate
       identifier: Multivariate
@@ -401,6 +421,11 @@ featureFlags:
           offVariation: Variation_1
         state: "off"
       - identifier: awscv
+        default:
+          onVariation: Variation_2
+          offVariation: Variation_1
+        state: "off"
+      - identifier: DEV
         default:
           onVariation: Variation_2
           offVariation: Variation_1
@@ -490,5 +515,10 @@ featureFlags:
         - targets:
           - identifier: guest
           variation: "true"
+      - identifier: DEV
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: myilt
   orgIdentifier: MyLab
